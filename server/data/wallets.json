@@ -1,0 +1,10 @@
+[
+    {
+        "wallet_id": 1,
+        "amount": 10.000
+    },
+    {
+        "wallet_id": 2,
+        "amount": 20.000
+    }
+]

@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option go_package = "syahdan.id/coinbit/wallet";
+
+message WalletRequest {
+    int64 wallet_id = 1;
+    float amount = 2;
+}
+
+message WalletResponse {
+    int64 wallet_id = 1;
+    float amount = 2;
+}
+
+service Wallet {
+    rpc FindWalletById (WalletRequest) returns (WalletResponse);
+}
